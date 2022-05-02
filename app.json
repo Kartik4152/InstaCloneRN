@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "InstaClone",
+    "slug": "InstaClone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pplwork.instaclone"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pplwork.instaclone",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDS4Llr5KJv3_0ecfyc8PeQXr_E1b8o0p4",
+          "authDomain": "instaclone-b124e.firebaseapp.com",
+          "projectId": "instaclone-b124e",
+          "storageBucket": "instaclone-b124e.appspot.com",
+          "messagingSenderId": "1:945651837752:web:3b1d0987e0f84982bcafcd",
+          "appId": "945651837752",
+          "measurementId": "G-2WSLDKXHR9"
+        }
+      }
+    }
+  }
+}
